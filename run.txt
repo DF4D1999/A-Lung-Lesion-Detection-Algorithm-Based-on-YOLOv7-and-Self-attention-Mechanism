@@ -1,0 +1,1 @@
+python train.py --weights "models\yolov7.pt" --data "vinbigdata.yaml" --epochs 300 --batch-size 32 --cfg "cfg\training\yolov7.yaml" --device 0 --name testrun --img-size 640 640 --cache-images
